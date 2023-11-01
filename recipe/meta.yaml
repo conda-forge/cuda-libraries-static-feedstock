@@ -14,7 +14,11 @@ build:
 
 requirements:
   run:
-    - __linux
+    - __linux               # [linux]
+    - __win                 # [win]
+    - __archspec * x86_64   # [x86_64]
+    - __archspec * aarch64  # [aarch64]
+    - __archspec * ppc64le  # [ppc64le]
     - cuda-cudart-static 12.0.107
     - cuda-nvrtc-static 12.0.76
     - libcublas-static 12.0.1.189
