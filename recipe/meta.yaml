@@ -10,21 +10,21 @@ source:
 
 build:
   number: 1
-  skip: true  # [osx or win]
+  skip: true  # [osx]
 
 requirements:
   run:
     - cuda-cudart-static 12.0.107
     - cuda-nvrtc-static 12.0.76
-    - libcublas-static 12.0.1.189
-    - libcufft-static 11.0.0.21
-    - libcufile-static 1.5.0.59  # [linux64]
-    - libcurand-static 10.3.1.50
-    - libcusolver-static 11.4.2.57
-    - libcusparse-static 12.0.0.76
-    - libnpp-static 12.0.0.30
+    - libcublas-static 12.0.1.189   # [linux]
+    - libcufft-static 11.0.0.21     # [linux]
+    - libcufile-static 1.5.0.59     # [linux64]
+    - libcurand-static 10.3.1.50    # [linux]
+    - libcusolver-static 11.4.2.57  # [linux]
+    - libcusparse-static 12.0.0.76  # [linux]
+    - libnpp-static 12.0.0.30       # [linux]
     - libnvjitlink-static 12.0.76
-    - libnvjpeg-static 12.0.0.28
+    - libnvjpeg-static 12.0.0.28    # [linux]
 
 test:
   commands:
