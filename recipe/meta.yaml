@@ -18,7 +18,7 @@ requirements:
     - cuda-nvrtc-static 12.2.140
     - libcublas-static 12.2.5.6   # [linux]
     - libcufft-static 11.0.8.103     # [linux]
-    - libcufile-static 1.7.2.10     # [linux64]
+    - libcufile-static 1.7.2.10     # [linux64 or aarch64]
     - libcurand-static 10.3.3.141    # [linux]
     - libcusolver-static 11.5.2.141  # [linux]
     - libcusparse-static 12.1.2.141  # [linux]
