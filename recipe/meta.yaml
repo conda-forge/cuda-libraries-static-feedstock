@@ -10,7 +10,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [osx]
+  skip: true  # [osx or ppc64le]
 
 requirements:
   run:
@@ -18,7 +18,7 @@ requirements:
     - cuda-nvrtc-static 12.5.40
     - libcublas-static 12.5.2.13      # [linux]
     - libcufft-static 11.2.3.18      # [linux]
-    - libcufile-static 1.10.0.4       # [linux64 or aarch64]
+    - libcufile-static 1.10.0.4       # [linux]
     - libcurand-static 10.3.6.39    # [linux]
     - libcusolver-static 11.6.2.40  # [linux]
     - libcusparse-static 12.4.1.24  # [linux]
