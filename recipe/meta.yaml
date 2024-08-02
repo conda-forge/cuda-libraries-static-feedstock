@@ -1,4 +1,4 @@
-{% set version = "12.5.1" %}
+{% set version = "12.6.0" %}
 
 package:
   name: cuda-libraries-static
@@ -14,18 +14,18 @@ build:
 
 requirements:
   run:
-    - cuda-cudart-static 12.5.82
-    - cuda-nvrtc-static 12.5.82
-    - libcublas-static 12.5.3.2      # [linux]
-    - libcufft-static 11.2.3.61      # [linux]
-    - libcufile-static 1.10.1.7       # [linux]
-    - libcurand-static 10.3.6.82    # [linux]
-    - libcusolver-static 11.6.3.83  # [linux]
-    - libcusparse-static 12.5.1.3  # [linux]
-    - libnpp-static 12.3.0.159         # [linux]
-    - libnvfatbin-static 12.5.82
-    - libnvjitlink-static 12.5.82
-    - libnvjpeg-static 12.3.2.81     # [linux]
+    - cuda-cudart-static 12.6.37
+    - cuda-nvrtc-static 12.6.20
+    - libcublas-static 12.6.0.22      # [linux]
+    - libcufft-static 11.2.6.28      # [linux]
+    - libcufile-static 1.11.0.15       # [linux]
+    - libcurand-static 10.3.7.37    # [linux]
+    - libcusolver-static 11.6.4.38  # [linux]
+    - libcusparse-static 12.5.2.23  # [linux]
+    - libnpp-static 12.3.1.23         # [linux]
+    - libnvfatbin-static 12.6.20
+    - libnvjitlink-static 12.6.20
+    - libnvjpeg-static 12.3.3.23     # [linux]
 
 test:
   commands:
