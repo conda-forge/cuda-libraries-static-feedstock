@@ -1,4 +1,4 @@
-{% set version = "13.1.1" %}
+{% set version = "13.1.2" %}
 
 package:
   name: cuda-libraries-static
@@ -17,7 +17,7 @@ requirements:
     - cuda-cudart-static 13.1.80
     - cuda-culibos-static 13.1.115    # [linux]
     - cuda-nvrtc-static 13.1.115
-    - libcublas-static 13.2.1.1      # [linux]
+    - libcublas-static 13.2.2.2      # [linux]
     - libcufft-static 12.1.0.78      # [linux]
     - libcufile-static 1.16.1.26       # [linux]
     - libcurand-static 10.4.1.81    # [linux]
